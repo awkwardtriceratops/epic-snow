@@ -5,7 +5,8 @@
 //   - USDA NRCS SNOTEL (measured snow depth + snow water equivalent, US West)
 import fs from 'node:fs/promises';
 
-const OPEN_METEO = process.env.OPEN_METEO_BASE || 'https://api.open-meteo.com';
+// HTTPS first; plain HTTP as a fallback (Open-Meteo's TLS endpoint has had connect timeouts).
+const OPEN_METEO_BASES = process.env.OPEN_METEO_BASE ? [process.env.OPEN_METEO_BASE] : ['https://api.open-meteo.com', 'http://api.open-meteo.com'];
 const AWDB = 'https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1';
 const SNOTEL_STATES = new Set(['CO', 'UT', 'ID', 'CA', 'NV', 'WA', 'OR', 'MT', 'WY', 'NM', 'AZ']);
 
@@ -78,7 +79,11 @@ async function fetchForecasts(list) {
       timezone: 'auto',
       models: 'best_match',
     });
-    const data = await getJSON(`${OPEN_METEO}/v1/forecast?${p}`);
+    let data, lastErr;
+    for (const base of OPEN_METEO_BASES) {
+      try { data = await getJSON(`${base}/v1/forecast?${p}`, 3); break; } catch (e) { lastErr = e; console.warn(`${base} failed: ${e.message}`); }
+    }
+    if (!data) throw lastErr;
     out.push(...(Array.isArray(data) ? data : [data]));
     await sleep(800);
   }
@@ -236,7 +241,13 @@ async function fetchSnotel(list) {
 }
 
 // ---- main ----
-const forecasts = await fetchForecasts(resorts);
+let forecasts;
+try {
+  forecasts = await fetchForecasts(resorts);
+} catch (e) {
+  console.error('Forecast fetch failed; keeping previous data/snow.json:', e.message);
+  process.exit(0);
+}
 let snotel = new Map();
 try {
   snotel = await fetchSnotel(resorts);
