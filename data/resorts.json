@@ -1,0 +1,63 @@
+[
+  {"id":"vail","name":"Vail","region":"Colorado","state":"CO","lat":39.6061,"lon":-106.3550,"base":8120,"summit":11570,"pass":"Epic","site":"https://www.vail.com","cams":["vailch11","vailch21","vailch2","vaileaglesnest","vailsnowsummit"]},
+  {"id":"beaver-creek","name":"Beaver Creek","region":"Colorado","state":"CO","lat":39.6042,"lon":-106.5165,"base":8100,"summit":11440,"pass":"Epic","site":"https://www.beavercreek.com","cams":["bcsnowstake2","bcspruce","bcredbuffalo","bcmccoy","bctalons","bcvillage"]},
+  {"id":"breckenridge","name":"Breckenridge","region":"Colorado","state":"CO","lat":39.4817,"lon":-106.0640,"base":9600,"summit":12998,"pass":"Epic","site":"https://www.breckenridge.com","cams":["breckenridge10","breckenridge9","breckenridge7"]},
+  {"id":"keystone","name":"Keystone","region":"Colorado","state":"CO","lat":39.6045,"lon":-105.9544,"base":9280,"summit":12408,"pass":"Epic","site":"https://www.keystoneresort.com","cams":["keystonedercum","keystonenorthpeak","keystonebergman","keystoneriverrun","keystonelakeside"]},
+  {"id":"crested-butte","name":"Crested Butte","region":"Colorado","state":"CO","lat":38.8991,"lon":-106.9653,"base":9375,"summit":12162,"pass":"Epic","site":"https://www.skicb.com","cams":["Crestedbuttebase","Crestedbuttebar","Crestedbuttewarm"]},
+  {"id":"telluride","name":"Telluride","region":"Colorado","state":"CO","lat":37.9375,"lon":-107.8123,"base":8725,"summit":13150,"pass":"Epic partner","site":"https://tellurideskiresort.com","cams":[]},
+
+  {"id":"park-city","name":"Park City","region":"Utah & Idaho","state":"UT","lat":40.6514,"lon":-111.5080,"base":6800,"summit":10026,"pass":"Epic","site":"https://www.parkcitymountain.com","cams":["parkcitylookoutcabin","parkcityhighmeadow","parkcitytopobx","parkcitytopcrescent","parkcitycrescentridge","parkcitymtnvillage"]},
+  {"id":"snowbasin","name":"Snowbasin","region":"Utah & Idaho","state":"UT","lat":41.2160,"lon":-111.8569,"base":6391,"summit":9350,"pass":"Epic partner","site":"https://www.snowbasin.com","cams":[]},
+  {"id":"sun-valley","name":"Sun Valley","region":"Utah & Idaho","state":"ID","lat":43.6600,"lon":-114.4000,"base":5750,"summit":9150,"pass":"Epic partner","site":"https://www.sunvalley.com","cams":[]},
+
+  {"id":"heavenly","name":"Heavenly","region":"Tahoe","state":"CA","lat":38.9353,"lon":-119.9400,"base":6540,"summit":10067,"pass":"Epic","site":"https://www.skiheavenly.com","cams":["heavenlydipper","heavenlymidstation","heavenlytram","heavenlyeastpeak"]},
+  {"id":"northstar","name":"Northstar","region":"Tahoe","state":"CA","lat":39.2746,"lon":-120.1210,"base":6330,"summit":8610,"pass":"Epic","site":"https://www.northstarcalifornia.com","cams":["northstarsnowstake","northstarspluto","northstarmidmountain","northstarvillage"]},
+  {"id":"kirkwood","name":"Kirkwood","region":"Tahoe","state":"CA","lat":38.6850,"lon":-120.0652,"base":7800,"summit":9800,"pass":"Epic","site":"https://www.kirkwood.com","cams":["kirkwoodcornice","kirkwoodredcliffs"]},
+
+  {"id":"stevens-pass","name":"Stevens Pass","region":"Pacific NW","state":"WA","lat":47.7448,"lon":-121.0890,"base":4061,"summit":5845,"pass":"Epic","site":"https://www.stevenspass.com","cams":["stevenspasssnowstake","stevenspassjupiter","stevenspassskyline","stevenspasscourtyard"]},
+
+  {"id":"whistler","name":"Whistler Blackcomb","region":"Canada","state":"BC","lat":50.0850,"lon":-122.9300,"base":2214,"summit":7494,"pass":"Epic","site":"https://www.whistlerblackcomb.com","cams":["whistlerpeak","whistlerroundhouse","whistler7thheaven","whistlerblackcomb","whistlercreekside","whistlervillage"]},
+  {"id":"fernie","name":"Fernie","region":"Canada","state":"BC","lat":49.4627,"lon":-115.0873,"base":3500,"summit":6316,"pass":"Epic partner","site":"https://skifernie.com","cams":[]},
+  {"id":"kicking-horse","name":"Kicking Horse","region":"Canada","state":"BC","lat":51.2975,"lon":-117.0480,"base":3900,"summit":8033,"pass":"Epic partner","site":"https://kickinghorseresort.com","cams":[]},
+  {"id":"kimberley","name":"Kimberley","region":"Canada","state":"BC","lat":49.6806,"lon":-116.0049,"base":4035,"summit":6500,"pass":"Epic partner","site":"https://skikimberley.com","cams":[]},
+  {"id":"nakiska","name":"Nakiska","region":"Canada","state":"AB","lat":50.9426,"lon":-115.1508,"base":4896,"summit":7415,"pass":"Epic partner","site":"https://skinakiska.com","cams":[]},
+  {"id":"mont-sainte-anne","name":"Mont-Sainte-Anne","region":"Canada","state":"QC","lat":47.0753,"lon":-70.9047,"base":575,"summit":2625,"pass":"Epic partner","site":"https://mont-sainte-anne.com","cams":[]},
+  {"id":"stoneham","name":"Stoneham","region":"Canada","state":"QC","lat":47.0230,"lon":-71.3770,"base":692,"summit":2075,"pass":"Epic partner","site":"https://ski-stoneham.com","cams":[]},
+
+  {"id":"stowe","name":"Stowe","region":"Northeast","state":"VT","lat":44.5303,"lon":-72.7814,"base":1559,"summit":3625,"pass":"Epic","site":"https://www.stowe.com","cams":["stowevillage2","stowevillage","stowemidwaybasestation"]},
+  {"id":"okemo","name":"Okemo","region":"Northeast","state":"VT","lat":43.4017,"lon":-72.7170,"base":1144,"summit":3344,"pass":"Epic","site":"https://www.okemo.com","cams":["okemosummit","okemosnowstake","okemosugarhouse","okemoroundhouse"]},
+  {"id":"mount-snow","name":"Mount Snow","region":"Northeast","state":"VT","lat":42.9602,"lon":-72.9204,"base":1900,"summit":3600,"pass":"Epic","site":"https://www.mountsnow.com","cams":["mountsnowsnowstake","mountsnowsummit","mountsnowsomerset","mountsnowcarinthia","mountsnowbase"]},
+  {"id":"hunter","name":"Hunter","region":"Northeast","state":"NY","lat":42.2020,"lon":-74.2300,"base":1600,"summit":3200,"pass":"Epic","site":"https://www.huntermtn.com","cams":["huntersummit","huntermidstation","hunternorthside","hunter1"]},
+  {"id":"sunapee","name":"Mount Sunapee","region":"Northeast","state":"NH","lat":43.3317,"lon":-72.0800,"base":1233,"summit":2743,"pass":"Epic","site":"https://www.mountsunapee.com","cams":["sunapeesummit","sunapeesprucelodge","sunapeeexpresslift"]},
+  {"id":"attitash","name":"Attitash","region":"Northeast","state":"NH","lat":44.0828,"lon":-71.2290,"base":600,"summit":2350,"pass":"Epic","site":"https://www.attitash.com","cams":["attitash4","attitash3","attitash1"]},
+  {"id":"wildcat","name":"Wildcat","region":"Northeast","state":"NH","lat":44.2643,"lon":-71.2390,"base":1950,"summit":4062,"pass":"Epic","site":"https://www.skiwildcat.com","cams":["wildcat3","wildcat2","wildcat1"]},
+  {"id":"crotched","name":"Crotched","region":"Northeast","state":"NH","lat":42.9984,"lon":-71.8740,"base":1000,"summit":2066,"pass":"Epic","site":"https://www.crotchedmtn.com","cams":[]},
+
+  {"id":"seven-springs","name":"Seven Springs","region":"Mid-Atlantic","state":"PA","lat":40.0230,"lon":-79.2980,"base":2240,"summit":2994,"pass":"Epic","site":"https://www.7springs.com","cams":["sevensprings","sevenspringsnorthface","sevenspringstahoe"]},
+  {"id":"hidden-valley-pa","name":"Hidden Valley (PA)","region":"Mid-Atlantic","state":"PA","lat":40.0520,"lon":-79.2580,"base":2405,"summit":2875,"pass":"Epic","site":"https://www.hiddenvalleyresort.com","cams":["hiddenvalleyfrontface1","hiddenvalleyavalanchelodge"]},
+  {"id":"laurel","name":"Laurel Mountain","region":"Mid-Atlantic","state":"PA","lat":40.1590,"lon":-79.1730,"base":1990,"summit":2766,"pass":"Epic","site":"https://www.laurelmountainski.com","cams":[]},
+  {"id":"liberty","name":"Liberty","region":"Mid-Atlantic","state":"PA","lat":39.7630,"lon":-77.3750,"base":580,"summit":1186,"pass":"Epic","site":"https://www.libertymountainresort.com","cams":[]},
+  {"id":"roundtop","name":"Roundtop","region":"Mid-Atlantic","state":"PA","lat":40.1100,"lon":-76.9270,"base":755,"summit":1355,"pass":"Epic","site":"https://www.skiroundtop.com","cams":[]},
+  {"id":"whitetail","name":"Whitetail","region":"Mid-Atlantic","state":"PA","lat":39.7410,"lon":-77.9330,"base":865,"summit":1800,"pass":"Epic","site":"https://www.skiwhitetail.com","cams":[]},
+  {"id":"jack-frost","name":"Jack Frost","region":"Mid-Atlantic","state":"PA","lat":41.1080,"lon":-75.6510,"base":1600,"summit":2000,"pass":"Epic","site":"https://www.jfbb.com","cams":[]},
+  {"id":"big-boulder","name":"Big Boulder","region":"Mid-Atlantic","state":"PA","lat":41.0450,"lon":-75.6050,"base":1700,"summit":2175,"pass":"Epic","site":"https://www.jfbb.com","cams":[]},
+
+  {"id":"afton-alps","name":"Afton Alps","region":"Midwest","state":"MN","lat":44.8560,"lon":-92.7870,"base":700,"summit":1050,"pass":"Epic","site":"https://www.aftonalps.com","cams":[]},
+  {"id":"mt-brighton","name":"Mt. Brighton","region":"Midwest","state":"MI","lat":42.5410,"lon":-83.8100,"base":950,"summit":1180,"pass":"Epic","site":"https://www.mtbrighton.com","cams":[]},
+  {"id":"wilmot","name":"Wilmot","region":"Midwest","state":"WI","lat":42.5100,"lon":-88.1830,"base":950,"summit":1180,"pass":"Epic","site":"https://www.wilmotmountain.com","cams":[]},
+  {"id":"alpine-valley","name":"Alpine Valley","region":"Midwest","state":"OH","lat":41.5300,"lon":-81.2500,"base":1100,"summit":1340,"pass":"Epic","site":"https://www.alpinevalleyohio.com","cams":[]},
+  {"id":"boston-mills","name":"Boston Mills","region":"Midwest","state":"OH","lat":41.2640,"lon":-81.5600,"base":850,"summit":1090,"pass":"Epic","site":"https://www.bmbw.com","cams":[]},
+  {"id":"brandywine","name":"Brandywine","region":"Midwest","state":"OH","lat":41.2760,"lon":-81.5420,"base":850,"summit":1090,"pass":"Epic","site":"https://www.bmbw.com","cams":[]},
+  {"id":"mad-river","name":"Mad River Mountain","region":"Midwest","state":"OH","lat":40.3160,"lon":-83.6830,"base":1160,"summit":1460,"pass":"Epic","site":"https://www.skimadriver.com","cams":[]},
+  {"id":"paoli-peaks","name":"Paoli Peaks","region":"Midwest","state":"IN","lat":38.5570,"lon":-86.5070,"base":650,"summit":950,"pass":"Epic","site":"https://www.paolipeaks.com","cams":[]},
+  {"id":"hidden-valley-mo","name":"Hidden Valley (MO)","region":"Midwest","state":"MO","lat":38.5400,"lon":-90.6700,"base":560,"summit":870,"pass":"Epic","site":"https://www.hiddenvalleyski.com","cams":[]},
+  {"id":"snow-creek","name":"Snow Creek","region":"Midwest","state":"MO","lat":39.4500,"lon":-94.9100,"base":800,"summit":1100,"pass":"Epic","site":"https://www.skisnowcreek.com","cams":[]},
+
+  {"id":"andermatt","name":"Andermatt-Sedrun","region":"International","state":"CH","lat":46.6333,"lon":8.5940,"base":4737,"summit":9800,"pass":"Epic","site":"https://www.andermatt-sedrun-disentis.ch","cams":[]},
+  {"id":"crans-montana","name":"Crans-Montana","region":"International","state":"CH","lat":46.3110,"lon":7.4810,"base":4920,"summit":9840,"pass":"Epic","site":"https://www.mycransmontana.ch","cams":[]},
+  {"id":"hakuba","name":"Hakuba Valley","region":"International","state":"JP","lat":36.6980,"lon":137.8320,"base":2500,"summit":6000,"pass":"Epic partner","site":"https://www.hakubavalley.com","cams":[]},
+  {"id":"rusutsu","name":"Rusutsu","region":"International","state":"JP","lat":42.7480,"lon":140.9040,"base":1312,"summit":3264,"pass":"Epic partner","site":"https://rusutsu.com","cams":[]},
+  {"id":"perisher","name":"Perisher","region":"International","state":"AU","lat":-36.4060,"lon":148.4110,"base":5580,"summit":6990,"pass":"Epic","site":"https://www.perisher.com.au","cams":[]},
+  {"id":"falls-creek","name":"Falls Creek","region":"International","state":"AU","lat":-36.8650,"lon":147.2820,"base":4920,"summit":6030,"pass":"Epic","site":"https://www.fallscreek.com.au","cams":[]},
+  {"id":"hotham","name":"Hotham","region":"International","state":"AU","lat":-36.9760,"lon":147.1340,"base":4300,"summit":6050,"pass":"Epic","site":"https://www.mthotham.com.au","cams":[]}
+]
