@@ -66,8 +66,14 @@
   function spark(r) {
     const days = (r.days || []).filter((d) => !d.past).slice(0, 16);
     const max = Math.max(12, ...days.map((d) => d.snow));
-    return `<div class="spark" aria-hidden="true">${days.map((d) =>
-      `<i class="${d.snow >= POWDER ? 'p' : d.snow < 0.5 ? 'z' : ''}" style="height:${Math.max(3, (d.snow / max) * 100)}%" title="${dow(d.d)} ${md(d.d)}: ${inch(d.snow)}"></i>`).join('')}</div>`;
+    return `<div class="spark" aria-hidden="true">${days.map((d, i) => {
+      const v = d.snow >= 0.5 ? Math.round(d.snow) : '';
+      const cls = d.snow >= POWDER ? 'p' : d.snow < 0.5 ? 'z' : '';
+      const wk = [0, 6].includes(new Date(d.d + 'T12:00').getDay());
+      const lbl = i === 0 ? 'Today' : dow(d.d).slice(0, 2);
+      return `<div class="sc ${i === 0 ? 'today' : ''} ${wk ? 'wk' : ''}" title="${dow(d.d)} ${md(d.d)}: ${inch(d.snow)}">
+        <b>${v}</b><span class="bw"><i class="${cls}" style="height:${Math.max(4, (d.snow / max) * 100)}%"></i></span><u>${lbl}</u><u class="dt">${md(d.d).split('/').pop()}</u></div>`;
+    }).join('')}</div>`;
   }
 
   function valCell(v, cls, label) {
